@@ -40,7 +40,7 @@ jobs:
             is-multisite: 0
             allow-failure: false
           - wordpress-version: 'latest'
-            php-version: '8.1'
+            php-version: '8.3'
             is-multisite: 0
             allow-failure: false
           - wordpress-version: 'latest'
@@ -52,7 +52,7 @@ jobs:
             is-multisite: 0
             allow-failure: true
           - wordpress-version: 'nightly'
-            php-version: '8.3'
+            php-version: '8.4'
             is-multisite: 0
             allow-failure: true
 
