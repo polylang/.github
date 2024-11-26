@@ -66,6 +66,7 @@ composer test # Run PHPUnit tests
 - Use the issue template when creating new issues
 - Include detailed steps to reproduce bugs
 - Specify your WordPress and Polylang versions
+- Specify third party names and versions if applicable
 - Include relevant error messages and screenshots
 
 ## Documentation
