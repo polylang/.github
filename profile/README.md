@@ -43,7 +43,7 @@ Please check our contribution guidelines before submitting your pull request.
 - 700,000+ Active Installations
 - Available in 50+ Languages
 - Trusted by businesses worldwide
-- 4.5-star ratings from satisfied users
+- 4.7-star ratings from satisfied users
 - A small team of 8 people from France
 
 ---

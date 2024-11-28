@@ -8,7 +8,7 @@ Thank you for your interest in contributing to Polylang! This document provides 
 
 Before you begin, ensure you have:
 
-1. WordPress 6.2 or later installed locally
+1. The latest version of WordPress installed locally
 2. Git
 3. Node.js (LTS version recommended)
 4. Composer
