@@ -47,6 +47,8 @@ git checkout -b feature/your-feature-name
 
 - Follow WordPress Coding Standards
 - Use PHP CodeSniffer and ESLint (included in dev dependencies)
+- Keep inline documentation up to date
+- Follow PHPDoc standards for new code
 - Run code quality checks before submitting:
 
 ```bash
@@ -54,6 +56,10 @@ composer cs   # Check coding standards
 composer stan # Static analysis
 composer test # Run PHPUnit tests
 ```
+
+## License
+
+By contributing to Polylang, you agree that your contributions will be licensed under the GPL-3.0 License.
 
 ## Pull Request Guidelines
 
@@ -68,16 +74,3 @@ composer test # Run PHPUnit tests
 - Specify your WordPress and Polylang versions
 - Specify third party names and versions if applicable
 - Include relevant error messages and screenshots
-
-## Documentation
-
-- Keep inline documentation up to date
-- Follow PHPDoc standards for new code
-
-## Questions?
-
-- For general purpose questions, feel free to contact us at our [helpdesk](https://polylang.pro/support/) (premium support only).
-
-## License
-
-By contributing to Polylang, you agree that your contributions will be licensed under the GPL-3.0 License.

@@ -1,16 +1,14 @@
 # Welcome to Polylang 👋
 
-![Polylang Logo](../assets/banner-772x250.png)
-
 Polylang is a powerful WordPress plugin that makes building multilingual websites easy and intuitive. With over 700,000 active installations, we're helping websites around the world connect with their global audience.
 
 ## 🌍 About Us
 
 We believe in making multilingual WordPress sites accessible to everyone. Our solutions include:
 
-- **Polylang**: Our free WordPress plugin for basic multilingual needs
-- **Polylang Pro**: Advanced features for professional websites
-- **Polylang for WooCommerce**: Complete solution for multilingual e-commerce
+- **Polylang**: Our free WordPress plugin for basic multilingual needs, [see](https://polylang.pro/downloads/polylang/).
+- **Polylang Pro**: Advanced features for professional websites, [see](https://polylang.pro/downloads/polylang-pro/).
+- **Polylang for WooCommerce**: Complete solution for multilingual e-commerce, [see](https://polylang.pro/downloads/polylang-for-woocommerce/).
 
 ## 📦 Our Main Repositories
 
@@ -36,7 +34,7 @@ We welcome contributions from the community! Whether it's:
 - 📖 Documentation improvements
 - 🔧 Code contributions
 
-Please check our contribution guidelines before submitting your pull request.
+Please check our contribution [guidelines](../.github/CONTRIBUTING.md) before submitting your pull request.
 
 ## 📊 Stats
 
