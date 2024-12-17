@@ -2,12 +2,18 @@ name: Integration and Unit Tests
 
 on:
   workflow_call:
+    secrets:
+      GH_COMPOSER_AUTH:
+        required: false
 
 # Cancels all previous workflow runs for the same branch that have not yet completed.
 concurrency:
   # The concurrency group contains the workflow name and the branch name.
   group: ${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: true
+
+env:
+  COMPOSER_AUTH: ${{ secrets.GH_COMPOSER_AUTH }}
 
 jobs:
   testing:
