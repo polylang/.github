@@ -69,16 +69,8 @@ jobs:
       - name: Check out the source code
         uses: actions/checkout@v4
 
-      - name: Install SVN
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y subversion
-
-      - name: Has SVN?
-        run: which svn || exit 1
-
       - name: Run PHPUnit tests
-        uses: polylang/actions/phpunit@main
+        uses: polylang/actions/phpunit@install-svn
         with:
           php-version: ${{ matrix.php-version }}
           wordpress-version: ${{ matrix.wordpress-version }}
