@@ -70,7 +70,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Has SNV?
-        run: which svn
+        run: which svn || exit 1
 
       - name: Run PHPUnit tests
         uses: polylang/actions/phpunit@main
