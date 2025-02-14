@@ -4,7 +4,7 @@ on:
   workflow_call:
     secrets:
       GH_COMPOSER_AUTH:
-        required: false
+        required: true
 
 # Cancels all previous workflow runs for the same branch that have not yet completed.
 concurrency:
