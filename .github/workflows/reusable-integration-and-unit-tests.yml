@@ -25,7 +25,7 @@ jobs:
       mysql:
         image: mariadb:11.2
         ports:
-          - '3306:3306'
+          - "3306:3306"
         env:
           MYSQL_ROOT_PASSWORD: wordpress
           MARIADB_INITDB_SKIP_TZINFO: 1
@@ -37,28 +37,32 @@ jobs:
       fail-fast: false
       matrix:
         include:
-          - wordpress-version: '6.2.x'
-            php-version: '7.4'
+          - wordpress-version: "6.5.x"
+            php-version: "7.4"
             is-multisite: 0
             allow-failure: false
-          - wordpress-version: 'latest'
-            php-version: '7.2'
+          - wordpress-version: "latest"
+            php-version: "7.2"
             is-multisite: 0
             allow-failure: false
-          - wordpress-version: 'latest'
-            php-version: '8.3'
+          - wordpress-version: "latest"
+            php-version: "8.0"
             is-multisite: 0
             allow-failure: false
-          - wordpress-version: 'latest'
-            php-version: '8.0'
+          - wordpress-version: "latest"
+            php-version: "8.4"
+            is-multisite: 0
+            allow-failure: false
+          - wordpress-version: "latest"
+            php-version: "8.3"
             is-multisite: 1
             allow-failure: false
-          - wordpress-version: 'nightly'
-            php-version: '7.2'
+          - wordpress-version: "nightly"
+            php-version: "7.2"
             is-multisite: 0
             allow-failure: true
-          - wordpress-version: 'nightly'
-            php-version: '8.4'
+          - wordpress-version: "nightly"
+            php-version: "8.5"
             is-multisite: 0
             allow-failure: true
 
