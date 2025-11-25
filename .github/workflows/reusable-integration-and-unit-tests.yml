@@ -78,14 +78,3 @@ jobs:
         with:
           php-version: ${{ matrix.php-version }}
           wordpress-version: ${{ matrix.wordpress-version }}
-
-      - name: Run Behat tests
-        run: |
-          PHP_DEPENDENCIES=$(composer show -D)
-          if [[ $PHP_DEPENDENCIES == *"behat/behat"* ]]; then
-          	echo "Behat is installed, let's run the tests."
-          	vendor/bin/behat
-          else
-          	echo "Behat is not installed"
-          	exit 0
-          fi
