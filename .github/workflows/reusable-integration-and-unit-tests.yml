@@ -42,15 +42,11 @@ jobs:
             is-multisite: 0
             allow-failure: false
           - wordpress-version: "latest"
-            php-version: "7.2"
+            php-version: "7.4"
             is-multisite: 0
             allow-failure: false
           - wordpress-version: "latest"
-            php-version: "8.0"
-            is-multisite: 0
-            allow-failure: false
-          - wordpress-version: "latest"
-            php-version: "8.4"
+            php-version: "8.5"
             is-multisite: 0
             allow-failure: false
           - wordpress-version: "latest"
@@ -58,7 +54,7 @@ jobs:
             is-multisite: 1
             allow-failure: false
           - wordpress-version: "nightly"
-            php-version: "7.2"
+            php-version: "7.4"
             is-multisite: 0
             allow-failure: true
           - wordpress-version: "nightly"
